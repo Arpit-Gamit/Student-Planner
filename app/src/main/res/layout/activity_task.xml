@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/registration1bkg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="30dp"
+        android:background="@drawable/custom_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tasks"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Title"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:lines="1"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Description"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:lines="1"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Due Date"
+        android:inputType="date"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:lines="1"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextPriority"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Priority"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:lines="1"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Subject"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:lines="1"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/drawable_button"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
